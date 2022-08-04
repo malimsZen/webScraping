@@ -16,7 +16,7 @@ with open("tradingview.html",'r+') as fp:
     print(first_row.td)
     print(soup.find_all(string="US"))
 
-    
+# Minor change   
 
     
 
