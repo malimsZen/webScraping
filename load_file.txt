@@ -20,3 +20,31 @@
  14:26:07-Aug-14-2022,Extraction phase Started
  14:26:58-Aug-14-2022,ETL Job Started
  14:26:58-Aug-14-2022,Extraction phase Started
+ 23:43:03-Aug-15-2022,ETL Job Started
+ 23:43:03-Aug-15-2022,Extraction phase Started
+ 23:43:03-Aug-15-2022,Extraction phase ended
+ 23:43:03-Aug-15-2022,Transform phase Started
+ 23:45:14-Aug-15-2022,ETL Job Started
+ 23:45:14-Aug-15-2022,Extraction phase Started
+ 23:45:14-Aug-15-2022,Extraction phase ended
+ 23:45:14-Aug-15-2022,Transform phase Started
+ 23:49:06-Aug-15-2022,ETL Job Started
+ 23:49:06-Aug-15-2022,Extraction phase Started
+ 23:49:06-Aug-15-2022,Extraction phase ended
+ 23:49:06-Aug-15-2022,Transform phase Started
+ 17:08:02-Aug-16-2022,ETL Job Started
+ 17:08:02-Aug-16-2022,Extraction phase Started
+ 17:08:02-Aug-16-2022,Extraction phase ended
+ 17:08:02-Aug-16-2022,Transform phase Started
+ 17:08:42-Aug-16-2022,ETL Job Started
+ 17:08:42-Aug-16-2022,Extraction phase Started
+ 17:08:42-Aug-16-2022,Extraction phase ended
+ 17:08:42-Aug-16-2022,Transform phase Started
+ 17:08:46-Aug-16-2022,ETL Job Started
+ 17:08:46-Aug-16-2022,Extraction phase Started
+ 17:08:46-Aug-16-2022,Extraction phase ended
+ 17:08:46-Aug-16-2022,Transform phase Started
+ 17:10:22-Aug-16-2022,ETL Job Started
+ 17:10:22-Aug-16-2022,Extraction phase Started
+ 17:10:22-Aug-16-2022,Extraction phase ended
+ 17:10:22-Aug-16-2022,Transform phase Started

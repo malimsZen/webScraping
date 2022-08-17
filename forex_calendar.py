@@ -38,9 +38,9 @@ def extract_file():
 # Transform the 'Forecast' and 'Previous' column data into two deciman formats.
 def transform_file(data):
 
-    data['Forecast'] = round(data.Forecast,2)
+    data['Forecast'] = round(data.Forecast * 1.00,2)
 
-    data['Previous'] = round(data.Previous,2)
+    data['Previous'] = round(data.Previous * 1.00,2)
 
     return data
 
