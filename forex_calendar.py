@@ -17,9 +17,10 @@ def extract_jsonfile(filetoExtract):
     data_file = pd.read_json(filetoExtract)
     return data_file
 
+
+
 #Extract function that will extract all the files in a sequence and append them
 # to a dataframe after being read.
-
 def extract_file():
     #creating a dataframe for the extracted data.
     extracted_data = pd.DataFrame(columns=["Title","Country","Date","Time","Impact","Forecast","Previous"])
@@ -35,6 +36,7 @@ def extract_file():
     return extracted_data
 
 
+
 # Transform the 'Forecast' and 'Previous' column data into two deciman formats.
 def transform_file(data):
 
@@ -44,9 +46,13 @@ def transform_file(data):
 
     return data
 
+
+
 # Load function,loads the transformed data into a csv file.
 def load_file(targetfile,data_to_load):
     data_to_load.to_csv(target_file)
+
+
 
 #logging the ETL process.
 def log(message):
@@ -56,6 +62,8 @@ def log(message):
     with open("load_file.txt",'a') as f:
         f.write(timestamp + ',' + message + '\n')
 
+
+
 #Running the ETL Process
 log("ETL Job Started")
 log('Extraction phase Started')
@@ -63,10 +71,12 @@ extracted_data_file = extract_file()
 extracted_data_file
 log('Extraction phase ended')
 
+
 log('Transform phase Started')
 transformed_file = transform_file(extracted_data_file)
 transformed_file
 log('Transform phase ended')
+
 
 log('Load phase started')
 file_load = load_file(target_file,transformed_file)
