@@ -8,14 +8,10 @@ target_file = "Transformed_data.csv" #Transformed file repo.
 load_file = "load_file.txt" #Load file repo
 
 #CSV file extraction function.
-def extract_csvfile(filetoExtract):
-    data_file = pd.read_csv(filetoExtract)
+def extract_xlsfile(filetoExtract):
+    data_file = pd.read_excel(filetoExtract,index_col=0)
     return data_file
     
-#JSON file extraction function.
-def extract_jsonfile(filetoExtract):
-    data_file = pd.read_json(filetoExtract)
-    return data_file
 
 
 
@@ -23,26 +19,22 @@ def extract_jsonfile(filetoExtract):
 # to a dataframe after being read.
 def extract_file():
     #creating a dataframe for the extracted data.
-    extracted_data = pd.DataFrame(columns=["Title","Country","Date","Time","Impact","Forecast","Previous"])
+    extracted_data = pd.DataFrame(columns=["Rank","Bank","Country","Landmass","Total_assets_us_b","Balance_sheet"])
 
-    #Searching, extracting and appending both CSV & JSON files onto the dataframe through
+    #Searching, extracting and appending both XLS files onto the dataframe through
     # iterating through the directory.
-    for csv_file in glob.glob("*.csv"):
-        extracted_data = extracted_data.append(extract_csvfile(csv_file))
+    for xlsx_file in glob.glob("*.xlsx"):
+        extracted_data = extracted_data.append(extract_xlsfile(xlsx_file))
 
-    for json_file in glob.glob("*.json"):
-        extracted_data = extracted_data.append(extract_jsonfile(json_file))
 
     return extracted_data
 
 
 
-# Transform the 'Forecast' and 'Previous' column data into two deciman formats.
+# Transform the totoal_assets_us_b column data into two deciman formats.
 def transform_file(data):
 
-    data['Forecast'] = round(data.Forecast * 1.00,2)
-
-    data['Previous'] = round(data.Previous * 1.00,2)
+    data['Total_assets_us_b)'] = round(data.Total_assets_us_b,2)
 
     return data
 
