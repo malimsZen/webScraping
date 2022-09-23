@@ -1,1 +1,88 @@
-,Rank,Bank,Country,Landmass,Total_assets_us_b,Balance_sheet,Total_assets_us_b)
+,Title,Country,Date,Impact,Forecast,Previous,title,country,date,impact,forecast,previous
+0,,,,,,,BusinessNZ Services Index,NZD,,Low,,55.4
+1,,,,,,,Rightmove HPI m/m,GBP,2022-08-14 19:01:00-04:00,Low,,0.4%
+2,,,,,45.0,,Prelim GDP Price Index y/y,JPY,2022-08-14 19:50:00-04:00,Low,-0.8%,-0.4%
+3,,,,,,,Prelim GDP q/q,JPY,2022-08-14 19:50:00-04:00,Low,0.7%,-0.2%
+4,,,,,,,Fixed Asset Investment ytd/y,CNY,2022-08-14 22:00:00-04:00,Low,6.3%,6.1%
+5,,,,,,,Industrial Production y/y,CNY,2022-08-14 22:00:00-04:00,Low,4.5%,3.9%
+6,,,,,,,NBS Press Conference,CNY,2022-08-14 22:00:00-04:00,Low,,
+7,,,,,,,Retail Sales y/y,CNY,2022-08-14 22:00:00-04:00,Medium,5.0%,3.1%
+8,,,,,,,Unemployment Rate,CNY,2022-08-14 22:00:00-04:00,Low,5.5%,5.5%
+9,,,,,,,Revised Industrial Production m/m,JPY,2022-08-15 00:30:00-04:00,Low,-7.5%,-7.5%
+10,,,,,,,German WPI m/m,EUR,2022-08-15 02:00:00-04:00,Low,0.2%,0.1%
+11,,,,,,,PPI m/m,CHF,2022-08-15 02:30:00-04:00,Low,0.4%,0.3%
+12,,,,,,,French Bank Holiday,EUR,2022-08-15 03:01:00-04:00,Holiday,,
+13,,,,,,,Italian Bank Holiday,EUR,2022-08-15 03:03:00-04:00,Holiday,,
+14,,,,,,,Empire State Manufacturing Index,USD,2022-08-15 08:30:00-04:00,Medium,5.1,11.1
+15,,,,,,,Manufacturing Sales m/m,CAD,2022-08-15 08:30:00-04:00,Low,,-2.0%
+16,,,,,,,Wholesale Sales m/m,CAD,2022-08-15 08:30:00-04:00,Low,,1.6%
+17,,,,,,,NAHB Housing Market Index,USD,2022-08-15 10:00:00-04:00,Low,55,55
+18,,,,,,,TIC Long-Term Purchases,USD,2022-08-15 16:00:00-04:00,Low,,155.3B
+19,,,,,,,Monetary Policy Meeting Minutes,AUD,2022-08-15 21:30:00-04:00,High,,
+20,,,,,,,Tertiary Industry Activity m/m,JPY,2022-08-16 00:30:00-04:00,Low,0.5%,0.8%
+21,,,,,,,Average Earnings Index 3m/y,GBP,2022-08-16 02:00:00-04:00,Low,4.7%,6.2%
+22,,,,,,,Unemployment Rate,GBP,2022-08-16 02:00:00-04:00,Low,3.8%,3.8%
+23,,,,,,,Claimant Count Change,GBP,2022-08-16 02:00:00-04:00,Low,-32.0K,-20.0K
+24,,,,,,,ZEW Economic Sentiment,EUR,2022-08-16 05:00:00-04:00,Low,-57.0,-51.1
+25,,,,,,,German ZEW Economic Sentiment,EUR,2022-08-16 05:00:00-04:00,Low,-59.9,-53.8
+26,,,,,,,Trade Balance,EUR,2022-08-16 05:00:00-04:00,Low,-20.0B,-26.0B
+27,,,,,,,Housing Starts,CAD,2022-08-16 08:15:00-04:00,Low,265K,274K
+28,,,,,,,CPI m/m,CAD,2022-08-16 08:30:00-04:00,High,,0.7%
+29,,,,,,,Common CPI y/y,CAD,2022-08-16 08:30:00-04:00,Medium,,4.6%
+30,,,,,,,Core CPI m/m,CAD,2022-08-16 08:30:00-04:00,Low,,0.3%
+31,,,,,,,Trimmed CPI y/y,CAD,2022-08-16 08:30:00-04:00,Medium,,5.5%
+32,,,,,,,Median CPI y/y,CAD,2022-08-16 08:30:00-04:00,Medium,,4.9%
+33,,,,,,,Building Permits,USD,2022-08-16 08:30:00-04:00,Low,1.65M,1.69M
+34,,,,,,,Housing Starts,USD,2022-08-16 08:30:00-04:00,Low,1.35M,1.56M
+35,,,,,,,Foreign Securities Purchases,CAD,2022-08-16 08:30:00-04:00,Low,,2.35B
+36,,,,,,,Capacity Utilization Rate,USD,2022-08-16 09:15:00-04:00,Low,80.2%,80.0%
+37,,,,,,,Industrial Production m/m,USD,2022-08-16 09:15:00-04:00,Low,0.3%,-0.2%
+38,,,,,,,Mortgage Delinquencies,USD,2022-08-16 10:00:00-04:00,Low,,4.11%
+39,,,,,,,GDT Price Index,NZD,2022-08-16 10:33:00-04:00,Low,,-5.0%
+40,,,,,,,PPI Input q/q,NZD,2022-08-16 18:45:00-04:00,Low,,3.6%
+41,,,,,,,PPI Output q/q,NZD,2022-08-16 18:45:00-04:00,Low,,2.6%
+42,,,,,,,Core Machinery Orders m/m,JPY,2022-08-16 19:50:00-04:00,Low,1.4%,-5.6%
+43,,,,,,,Trade Balance,JPY,2022-08-16 19:50:00-04:00,Low,-1.94T,-1.93T
+44,,,,,,,MI Leading Index m/m,AUD,2022-08-16 20:30:00-04:00,Low,,-0.2%
+45,,,,,,,Wage Price Index q/q,AUD,2022-08-16 21:30:00-04:00,High,0.8%,0.7%
+46,,,,,,,Official Cash Rate,NZD,2022-08-16 22:00:00-04:00,High,3.00%,2.50%
+47,,,,,,,RBNZ Rate Statement,NZD,2022-08-16 22:00:00-04:00,High,,
+48,,,,,,,RBNZ Monetary Policy Statement,NZD,2022-08-16 22:00:00-04:00,High,,
+49,,,,,,,RBNZ Press Conference,NZD,2022-08-16 23:00:00-04:00,High,,
+50,,,,,,,Core CPI y/y,GBP,2022-08-17 02:00:00-04:00,Low,5.9%,5.8%
+51,,,,,,,CPI y/y,GBP,2022-08-17 02:00:00-04:00,High,9.9%,9.4%
+52,,,,,,,RPI y/y,GBP,2022-08-17 02:00:00-04:00,Low,12.0%,11.8%
+53,,,,,,,PPI Input m/m,GBP,2022-08-17 02:00:00-04:00,Low,0.7%,1.8%
+54,,,,,,,PPI Output m/m,GBP,2022-08-17 02:00:00-04:00,Low,0.9%,1.4%
+55,,,,,,,HPI y/y,GBP,2022-08-17 04:30:00-04:00,Low,13.0%,12.8%
+56,,,,,,,Flash GDP q/q,EUR,2022-08-17 05:00:00-04:00,Low,0.7%,0.7%
+57,,,,,,,Flash Employment Change q/q,EUR,2022-08-17 05:00:00-04:00,Low,0.4%,0.5%
+58,,,,,,,Core Retail Sales m/m,USD,2022-08-17 08:30:00-04:00,High,0.1%,1.0%
+59,,,,,,,Retail Sales m/m,USD,2022-08-17 08:30:00-04:00,High,0.2%,1.0%
+60,,,,,,,Business Inventories m/m,USD,2022-08-17 10:00:00-04:00,Low,1.4%,1.4%
+61,,,,,,,Crude Oil Inventories,USD,2022-08-17 10:30:00-04:00,Low,,5.5M
+62,,,,,,,FOMC Meeting Minutes,USD,2022-08-17 14:00:00-04:00,High,,
+63,,,,,,,Unemployment Rate,AUD,2022-08-17 21:30:00-04:00,High,3.5%,3.5%
+64,,,,,,,Employment Change,AUD,2022-08-17 21:30:00-04:00,High,26.5K,88.4K
+65,,,,,,,Trade Balance,CHF,2022-08-18 02:00:00-04:00,Low,3.55B,3.80B
+66,,,,,,,Final Core CPI y/y,EUR,2022-08-18 05:00:00-04:00,Low,4.0%,4.0%
+67,,,,,,,Final CPI y/y,EUR,2022-08-18 05:00:00-04:00,Low,8.9%,8.9%
+68,,,,,,,Philly Fed Manufacturing Index,USD,2022-08-18 08:30:00-04:00,Medium,-6.2,-12.3
+69,,,,,,,Unemployment Claims,USD,2022-08-18 08:30:00-04:00,Medium,265K,262K
+70,,,,,,,IPPI m/m,CAD,2022-08-18 08:30:00-04:00,Low,,-1.1%
+71,,,,,,,RMPI m/m,CAD,2022-08-18 08:30:00-04:00,Low,,-0.1%
+72,,,,,,,Existing Home Sales,USD,2022-08-18 10:00:00-04:00,Medium,4.85M,5.12M
+73,,,,,,,CB Leading Index m/m,USD,2022-08-18 10:00:00-04:00,Low,-0.5%,-0.8%
+74,,,,,,,Natural Gas Storage,USD,2022-08-18 10:30:00-04:00,Low,,44B
+75,,,,,,,FOMC Member George Speaks,USD,2022-08-18 13:20:00-04:00,Medium,,
+76,,,,,,,Trade Balance,NZD,2022-08-18 18:45:00-04:00,Low,,-701M
+77,,,,,,,GfK Consumer Confidence,GBP,2022-08-18 19:01:00-04:00,Low,-42,-41
+78,,,,,,,National Core CPI y/y,JPY,2022-08-18 19:30:00-04:00,Low,2.4%,2.2%
+79,,,,,,,RBNZ Statement of Intent,NZD,2022-08-18 22:03:00-04:00,Medium,,
+80,,,,,,,Credit Card Spending y/y,NZD,2022-08-18 23:00:00-04:00,Low,,3.5%
+81,,,,,,,Retail Sales m/m,GBP,2022-08-19 02:00:00-04:00,Medium,-0.2%,-0.1%
+82,,,,,,,Public Sector Net Borrowing,GBP,2022-08-19 02:00:00-04:00,Low,25.3B,22.1B
+83,,,,,,,German PPI m/m,EUR,2022-08-19 02:00:00-04:00,Low,0.9%,0.6%
+84,,,,,,,Current Account,EUR,2022-08-19 04:00:00-04:00,Low,-3.3B,-4.5B
+85,,,,,,,Retail Sales m/m,CAD,2022-08-19 08:30:00-04:00,Medium,,2.2%
+86,,,,,,,Core Retail Sales m/m,CAD,2022-08-19 08:30:00-04:00,Medium,,1.9%

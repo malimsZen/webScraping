@@ -8,8 +8,9 @@ target_file = "Transformed_data.csv" #Transformed file repo.
 load_file = "load_file.txt" #Load file repo
 
 #CSV file extraction function.
-def extract_xlsfile(filetoExtract):
-    data_file = pd.read_excel(filetoExtract,index_col=0)
+def extract_json(filetoExtract):
+    data_file = pd.read_json(filetoExtract)
+    print(data_file)
     return data_file
     
 
@@ -19,12 +20,12 @@ def extract_xlsfile(filetoExtract):
 # to a dataframe after being read.
 def extract_file():
     #creating a dataframe for the extracted data.
-    extracted_data = pd.DataFrame(columns=["Rank","Bank","Country","Landmass","Total_assets_us_b","Balance_sheet"])
+    extracted_data = pd.DataFrame(columns=["Title","Country","Date","Impact","Forecast","Previous"])
 
     #Searching, extracting and appending both XLS files onto the dataframe through
     # iterating through the directory.
-    for xlsx_file in glob.glob("*.xlsx"):
-        extracted_data = extracted_data.append(extract_xlsfile(xlsx_file))
+    for json_file in glob.glob("*.json"):
+        extracted_data = extracted_data.append(extract_json(json_file))
 
 
     return extracted_data
@@ -34,7 +35,8 @@ def extract_file():
 # Transform the totoal_assets_us_b column data into two deciman formats.
 def transform_file(data):
 
-    data['Total_assets_us_b)'] = round(data.Total_assets_us_b,2)
+    data.loc[2, 'Forecast'] = 45.0
+    print(data)
 
     return data
 
